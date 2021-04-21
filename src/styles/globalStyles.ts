@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle, css } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -10,6 +10,6 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font-family: "Poppins", Arial, sans-serif;
+    font-family: 'Poppins', Arial, sans-serif;
   }
 `;
