@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Navbar = styled.header`
   width: 100%;
   height: 80px;
-  background: #203156;
+  background: #0f192e;
 `;
 
 export const ContentContainer = styled.main`
@@ -27,7 +27,7 @@ export const ContentContainer = styled.main`
   button.toggle-theme {
     width: 50px;
     height: 50px;
-    background: #485674;
+    background: #1f335d;
 
     cursor: pointer;
 
@@ -41,7 +41,7 @@ export const ContentContainer = styled.main`
     transition: all 0.7s;
 
     &:hover {
-      background: #3f4b68;
+      background: #25417e;
     }
   }
 `;
